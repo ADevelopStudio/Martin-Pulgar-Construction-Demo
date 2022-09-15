@@ -7,21 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6241F1C228D311DC00A91BC9 /* MPTextFieldWithOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6241F1C128D311DC00A91BC9 /* MPTextFieldWithOptions.swift */; };
+		6241F1C428D3129D00A91BC9 /* MPDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6241F1C328D3129D00A91BC9 /* MPDatePickerView.swift */; };
+		62BBA61D28D3406F00185AA8 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BBA61C28D3406F00185AA8 /* NetworkModel.swift */; };
+		62BBA61F28D340FA00185AA8 /* DiaryReportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BBA61E28D340FA00185AA8 /* DiaryReportViewModel.swift */; };
+		62BBA62128D3464900185AA8 /* Small Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BBA62028D3464900185AA8 /* Small Models.swift */; };
+		62BBA62328D3547400185AA8 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BBA62228D3547400185AA8 /* ResultView.swift */; };
+		62BBA62A28D35ADC00185AA8 /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BBA62928D35ADC00185AA8 /* UIImage+Ext.swift */; };
+		62BBA63228D35B4E00185AA8 /* Martin_Pulgar_Construction_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BBA63128D35B4E00185AA8 /* Martin_Pulgar_Construction_DemoTests.swift */; };
+		62BBA63928D3615300185AA8 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BBA63828D3615300185AA8 /* Enums.swift */; };
+		62C38F0E28D32B530083C3DA /* MPImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C38F0D28D32B530083C3DA /* MPImagePickerView.swift */; };
+		62C38F1028D32C0A0083C3DA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C38F0F28D32C0A0083C3DA /* ImagePicker.swift */; };
+		62C38F1228D32C950083C3DA /* SingleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C38F1128D32C950083C3DA /* SingleImageView.swift */; };
 		62E5DBBC28D2DE3E00946D6B /* Martin_Pulgar_Construction_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E5DBBB28D2DE3E00946D6B /* Martin_Pulgar_Construction_DemoApp.swift */; };
-		62E5DBBE28D2DE3E00946D6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E5DBBD28D2DE3E00946D6B /* ContentView.swift */; };
+		62E5DBBE28D2DE3E00946D6B /* DiaryReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E5DBBD28D2DE3E00946D6B /* DiaryReportView.swift */; };
 		62E5DBC028D2DE3F00946D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E5DBBF28D2DE3F00946D6B /* Assets.xcassets */; };
 		62E5DBC328D2DE3F00946D6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E5DBC228D2DE3F00946D6B /* Preview Assets.xcassets */; };
+		62E5DBCC28D2E0F700946D6B /* MPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E5DBCB28D2E0F700946D6B /* MPTextField.swift */; };
+		62E5DBCE28D2E50E00946D6B /* MPOptionsPicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E5DBCD28D2E50E00946D6B /* MPOptionsPicketView.swift */; };
+		62E5DBD028D304B600946D6B /* MPButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E5DBCF28D304B600946D6B /* MPButtonView.swift */; };
+		62F042F328D30A0E00E83719 /* DiarySectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F042F228D30A0E00E83719 /* DiarySectionHeaderView.swift */; };
+		62F042F528D30D7600E83719 /* MPCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F042F428D30D7600E83719 /* MPCheckBox.swift */; };
+		62F042F728D30FB500E83719 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F042F628D30FB500E83719 /* LocationView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		62BBA63328D35B4E00185AA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E5DBB028D2DE3E00946D6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E5DBB728D2DE3E00946D6B;
+			remoteInfo = "Martin Pulgar Construction Demo";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		6241F1C128D311DC00A91BC9 /* MPTextFieldWithOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPTextFieldWithOptions.swift; sourceTree = "<group>"; };
+		6241F1C328D3129D00A91BC9 /* MPDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPDatePickerView.swift; sourceTree = "<group>"; };
+		62BBA61C28D3406F00185AA8 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		62BBA61E28D340FA00185AA8 /* DiaryReportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryReportViewModel.swift; sourceTree = "<group>"; };
+		62BBA62028D3464900185AA8 /* Small Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Small Models.swift"; sourceTree = "<group>"; };
+		62BBA62228D3547400185AA8 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		62BBA62928D35ADC00185AA8 /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		62BBA62F28D35B4E00185AA8 /* Martin Pulgar Construction DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Martin Pulgar Construction DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BBA63128D35B4E00185AA8 /* Martin_Pulgar_Construction_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Martin_Pulgar_Construction_DemoTests.swift; sourceTree = "<group>"; };
+		62BBA63828D3615300185AA8 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		62C38F0D28D32B530083C3DA /* MPImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPImagePickerView.swift; sourceTree = "<group>"; };
+		62C38F0F28D32C0A0083C3DA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		62C38F1128D32C950083C3DA /* SingleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageView.swift; sourceTree = "<group>"; };
 		62E5DBB828D2DE3E00946D6B /* Martin Pulgar Construction Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Martin Pulgar Construction Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E5DBBB28D2DE3E00946D6B /* Martin_Pulgar_Construction_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Martin_Pulgar_Construction_DemoApp.swift; sourceTree = "<group>"; };
-		62E5DBBD28D2DE3E00946D6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		62E5DBBD28D2DE3E00946D6B /* DiaryReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryReportView.swift; sourceTree = "<group>"; };
 		62E5DBBF28D2DE3F00946D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62E5DBC228D2DE3F00946D6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62E5DBCB28D2E0F700946D6B /* MPTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPTextField.swift; sourceTree = "<group>"; };
+		62E5DBCD28D2E50E00946D6B /* MPOptionsPicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPOptionsPicketView.swift; sourceTree = "<group>"; };
+		62E5DBCF28D304B600946D6B /* MPButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPButtonView.swift; sourceTree = "<group>"; };
+		62F042F228D30A0E00E83719 /* DiarySectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiarySectionHeaderView.swift; sourceTree = "<group>"; };
+		62F042F428D30D7600E83719 /* MPCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPCheckBox.swift; sourceTree = "<group>"; };
+		62F042F628D30FB500E83719 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		62BBA62C28D35B4E00185AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62E5DBB528D2DE3E00946D6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +86,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62BBA62428D3595600185AA8 /* Common Views */ = {
+			isa = PBXGroup;
+			children = (
+				62BBA62528D3597500185AA8 /* Image Picker */,
+				62E5DBCB28D2E0F700946D6B /* MPTextField.swift */,
+				6241F1C128D311DC00A91BC9 /* MPTextFieldWithOptions.swift */,
+				62E5DBCD28D2E50E00946D6B /* MPOptionsPicketView.swift */,
+				6241F1C328D3129D00A91BC9 /* MPDatePickerView.swift */,
+				62E5DBCF28D304B600946D6B /* MPButtonView.swift */,
+				62F042F228D30A0E00E83719 /* DiarySectionHeaderView.swift */,
+				62F042F428D30D7600E83719 /* MPCheckBox.swift */,
+				62F042F628D30FB500E83719 /* LocationView.swift */,
+			);
+			path = "Common Views";
+			sourceTree = "<group>";
+		};
+		62BBA62528D3597500185AA8 /* Image Picker */ = {
+			isa = PBXGroup;
+			children = (
+				62C38F0D28D32B530083C3DA /* MPImagePickerView.swift */,
+				62C38F1128D32C950083C3DA /* SingleImageView.swift */,
+				62C38F0F28D32C0A0083C3DA /* ImagePicker.swift */,
+			);
+			path = "Image Picker";
+			sourceTree = "<group>";
+		};
+		62BBA62628D3598B00185AA8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				62BBA61C28D3406F00185AA8 /* NetworkModel.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		62BBA62728D35A5D00185AA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				62BBA62028D3464900185AA8 /* Small Models.swift */,
+				62BBA63828D3615300185AA8 /* Enums.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		62BBA62828D35AB400185AA8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				62BBA62928D35ADC00185AA8 /* UIImage+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		62BBA63028D35B4E00185AA8 /* Martin Pulgar Construction DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				62BBA63128D35B4E00185AA8 /* Martin_Pulgar_Construction_DemoTests.swift */,
+			);
+			path = "Martin Pulgar Construction DemoTests";
+			sourceTree = "<group>";
+		};
 		62E5DBAF28D2DE3E00946D6B = {
 			isa = PBXGroup;
 			children = (
 				62E5DBBA28D2DE3E00946D6B /* Martin Pulgar Construction Demo */,
+				62BBA63028D35B4E00185AA8 /* Martin Pulgar Construction DemoTests */,
 				62E5DBB928D2DE3E00946D6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				62E5DBB828D2DE3E00946D6B /* Martin Pulgar Construction Demo.app */,
+				62BBA62F28D35B4E00185AA8 /* Martin Pulgar Construction DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +167,13 @@
 			isa = PBXGroup;
 			children = (
 				62E5DBBB28D2DE3E00946D6B /* Martin_Pulgar_Construction_DemoApp.swift */,
-				62E5DBBD28D2DE3E00946D6B /* ContentView.swift */,
+				62E5DBBD28D2DE3E00946D6B /* DiaryReportView.swift */,
+				62BBA61E28D340FA00185AA8 /* DiaryReportViewModel.swift */,
+				62BBA62228D3547400185AA8 /* ResultView.swift */,
+				62BBA62428D3595600185AA8 /* Common Views */,
+				62BBA62828D35AB400185AA8 /* Extensions */,
+				62BBA62628D3598B00185AA8 /* Network */,
+				62BBA62728D35A5D00185AA8 /* Models */,
 				62E5DBBF28D2DE3F00946D6B /* Assets.xcassets */,
 				62E5DBC128D2DE3F00946D6B /* Preview Content */,
 			);
@@ -70,6 +191,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		62BBA62E28D35B4E00185AA8 /* Martin Pulgar Construction DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BBA63528D35B4E00185AA8 /* Build configuration list for PBXNativeTarget "Martin Pulgar Construction DemoTests" */;
+			buildPhases = (
+				62BBA62B28D35B4E00185AA8 /* Sources */,
+				62BBA62C28D35B4E00185AA8 /* Frameworks */,
+				62BBA62D28D35B4E00185AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BBA63428D35B4E00185AA8 /* PBXTargetDependency */,
+			);
+			name = "Martin Pulgar Construction DemoTests";
+			productName = "Martin Pulgar Construction DemoTests";
+			productReference = 62BBA62F28D35B4E00185AA8 /* Martin Pulgar Construction DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		62E5DBB728D2DE3E00946D6B /* Martin Pulgar Construction Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62E5DBC628D2DE3F00946D6B /* Build configuration list for PBXNativeTarget "Martin Pulgar Construction Demo" */;
@@ -97,6 +236,10 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					62BBA62E28D35B4E00185AA8 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 62E5DBB728D2DE3E00946D6B;
+					};
 					62E5DBB728D2DE3E00946D6B = {
 						CreatedOnToolsVersion = 14.0;
 					};
@@ -116,11 +259,19 @@
 			projectRoot = "";
 			targets = (
 				62E5DBB728D2DE3E00946D6B /* Martin Pulgar Construction Demo */,
+				62BBA62E28D35B4E00185AA8 /* Martin Pulgar Construction DemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		62BBA62D28D35B4E00185AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62E5DBB628D2DE3E00946D6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,18 +284,87 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		62BBA62B28D35B4E00185AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BBA63228D35B4E00185AA8 /* Martin_Pulgar_Construction_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62E5DBB428D2DE3E00946D6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62E5DBBE28D2DE3E00946D6B /* ContentView.swift in Sources */,
+				62E5DBD028D304B600946D6B /* MPButtonView.swift in Sources */,
+				6241F1C428D3129D00A91BC9 /* MPDatePickerView.swift in Sources */,
+				62F042F728D30FB500E83719 /* LocationView.swift in Sources */,
+				6241F1C228D311DC00A91BC9 /* MPTextFieldWithOptions.swift in Sources */,
+				62E5DBCE28D2E50E00946D6B /* MPOptionsPicketView.swift in Sources */,
+				62E5DBBE28D2DE3E00946D6B /* DiaryReportView.swift in Sources */,
+				62F042F528D30D7600E83719 /* MPCheckBox.swift in Sources */,
+				62BBA61F28D340FA00185AA8 /* DiaryReportViewModel.swift in Sources */,
+				62F042F328D30A0E00E83719 /* DiarySectionHeaderView.swift in Sources */,
+				62C38F1228D32C950083C3DA /* SingleImageView.swift in Sources */,
+				62BBA62128D3464900185AA8 /* Small Models.swift in Sources */,
+				62C38F0E28D32B530083C3DA /* MPImagePickerView.swift in Sources */,
+				62C38F1028D32C0A0083C3DA /* ImagePicker.swift in Sources */,
+				62BBA62328D3547400185AA8 /* ResultView.swift in Sources */,
+				62E5DBCC28D2E0F700946D6B /* MPTextField.swift in Sources */,
+				62BBA62A28D35ADC00185AA8 /* UIImage+Ext.swift in Sources */,
+				62BBA61D28D3406F00185AA8 /* NetworkModel.swift in Sources */,
 				62E5DBBC28D2DE3E00946D6B /* Martin_Pulgar_Construction_DemoApp.swift in Sources */,
+				62BBA63928D3615300185AA8 /* Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		62BBA63428D35B4E00185AA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E5DBB728D2DE3E00946D6B /* Martin Pulgar Construction Demo */;
+			targetProxy = 62BBA63328D35B4E00185AA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		62BBA63628D35B4E00185AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QX9SH777P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.makemeapp.Martin-Pulgar-Construction-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Martin Pulgar Construction Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Martin Pulgar Construction Demo";
+			};
+			name = Debug;
+		};
+		62BBA63728D35B4E00185AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QX9SH777P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.makemeapp.Martin-Pulgar-Construction-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Martin Pulgar Construction Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Martin Pulgar Construction Demo";
+			};
+			name = Release;
+		};
 		62E5DBC428D2DE3F00946D6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -273,8 +493,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +524,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,6 +544,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		62BBA63528D35B4E00185AA8 /* Build configuration list for PBXNativeTarget "Martin Pulgar Construction DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BBA63628D35B4E00185AA8 /* Debug */,
+				62BBA63728D35B4E00185AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		62E5DBB328D2DE3E00946D6B /* Build configuration list for PBXProject "Martin Pulgar Construction Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

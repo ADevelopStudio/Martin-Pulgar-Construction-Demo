@@ -11,7 +11,7 @@ import SwiftUI
 struct Martin_Pulgar_Construction_DemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DiaryReportView(location: "Sydney, Site #112, western 2")
         }
     }
 }
